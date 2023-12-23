@@ -45,51 +45,48 @@ select {
   margin: 40px auto;
 }
 
-.city1 {
+.city {
   display: flex;
   margin: 10px 0;
   justify-content: space-between;
   padding: 30px 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+
+.city:hover {
+  opacity: 0.8;
+}
+
+#london {
   background-color: #daa498;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 20px;
 }
 
-.city2 {
-  display: flex;
-  margin: 10px 0;
-  justify-content: space-between;
-  padding: 30px 30px;
+#singapore {
   background-color: #c9d7d7;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 20px;
 }
 
-.city3 {
-  display: flex;
-  margin: 10px 0;
-  justify-content: space-between;
-  padding: 30px 30px;
+#wellington {
   background-color: #e0ae57;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 20px;
 }
 
-.city4 {
-  display: flex;
-  margin: 10px 0;
-  justify-content: space-between;
-  padding: 30px 30px;
+#current-location {
   background-color: #b5c07b;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 20px;
+}
+
+#new-york {
+  background-color: #c9d7d7;
+}
+
+#darwin {
+  background-color: #cdc1d9;
 }
 
 .date {
   text-transform: lowercase;
   font-size: 14px;
   font-weight: 600;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .time {
