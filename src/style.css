@@ -28,6 +28,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  color: #e0ae57;
 }
 
 select {
@@ -52,6 +53,7 @@ select {
   padding: 30px 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
+  background-color: #cdc1d9;
 }
 
 .city:hover {
